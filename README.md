@@ -1,20 +1,89 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Personal Calendar Agent
 
-# Run and deploy your AI Studio app
+An AI-powered, chat-based Google Calendar management tool built with a modern UI and powered by n8n automation.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1RMYBlTfZ78Nihg6pjl9F61KPcHDPGsrA
+## 📌 Overview
 
-## Run Locally
+The **Personal Calendar Agent** is an intelligent scheduling assistant that lets users create, update, delete, and check Google Calendar events using simple natural language.  
+It features a clean, interactive chat interface and relies on n8n workflows to execute all calendar operations seamlessly.
 
-**Prerequisites:**  Node.js
+---
+
+## ✨ Features
+
+- 💬 **Chat-based interaction** – Manage events using natural language commands.  
+- 📅 **Google Calendar integration** – Create, update, delete, and fetch event data.  
+- ⚙️ **n8n automation backend** – Stable and scalable workflows handling all logic.  
+- 🖥️ **Modern UI** – Dynamic monthly calendar view with today's date highlighted.  
+- 🚀 **Quick action buttons** – CREATE, DELETE, UPDATE, GET STATUS.  
+- 🔄 **Live chat bubbles** – Display both user queries and backend responses.
+
+---
+
+## 🧩 How It Works
+
+1. Enter the desired prompt in chat window.  
+2. Pre-determine whether to create, delete, update or get status of an event.  
+3. Enter event details in the bottom chat input bar.  
+4. The app sends your message to the n8n webhook.  
+5. n8n communicates with Google Calendar and processes the request.  
+6. The app displays the processed output as a new chat bubble.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Google AI Studio (Vibe Coding)  
+- **Automation Backend:** n8n  
+- **Calendar API:** Google Calendar API  
+- **Communication:** Webhooks (bidirectional)
+
+---
+
+## 🔗 Webhook
+
+All chat requests and responses flow through a webhook
+
+---
+
+## 🧪 Use Cases
+
+- Quickly schedule new events  
+- Modify event timings  
+- Delete outdated entries  
+- Retrieve event details  
+- Manage your Google Calendar without navigating the UI
+
+---
+
+## 🎯 Benefits
+
+- Fast and intuitive  
+- Minimal UI friction  
+- Natural language based  
+- Ideal for productivity and time management  
+- Works seamlessly with Google services
+
+---
+
+## 📄 License
+
+This project is for **personal use**.  
+Not intended for commercial deployment without permission.
+
+---
+
+## 🤝 Contributions
+
+PRs and suggestions are welcome for UI, workflow improvements, and feature ideas.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out for improvements, bugs, or collaboration.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
