@@ -1,0 +1,5 @@
+{
+  "name": "Calendar Agent",
+  "description": "An interactive calendar agent application to manage Google Calendar events via chat, integrated with n8n backend.",
+  "requestFramePermissions": []
+}
